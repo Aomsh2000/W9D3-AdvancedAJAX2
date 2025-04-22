@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📦 Product Dashboard</h1>
+  <input type="text" id="searchInput" placeholder="🔍 Search products..." />
+
+  <!-- Load Products -->
+  <button id="loadProductsButton">📥 Load Products</button>
+
+  <!-- Add Product -->
+  <div id="productForm">
+    <input type="text" id="productTitle" placeholder="Product Title" />
+    <textarea id="productBody" placeholder="Product Description"></textarea>
+    <button id="addProductBtn">➕ Add Product</button>
+  </div>
+
+  <!-- Products List -->
+  <div id="productList"></div>
+  <button id="loadMoreBtn">🔽 Load More</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

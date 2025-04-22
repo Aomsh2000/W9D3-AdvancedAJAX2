@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    background-color: #f9f9ff;
+  }
+  
+  h1 {
+    color: #5e35b1;
+  }
+  
+  #productForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  #productForm input,
+  #productForm textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  #productList {
+    margin-top: 30px;
+  }
+  
+  .product {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #7e57c2;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
